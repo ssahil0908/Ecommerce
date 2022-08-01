@@ -93,7 +93,7 @@ const Navbaar = () => {
         } else {
             console.log("data valid log");
             // alert("logout")
-            toast.success("user logput", {
+            toast.success("User Logout Successfully!", {
                 position: "top-center",
             })
             history("/");

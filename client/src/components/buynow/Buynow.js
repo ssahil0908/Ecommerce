@@ -4,7 +4,7 @@ import Option from './Option';
 import Right from './Right';
 import Subtotal from './Subtotal';
 import "./buynow.css";
-import Empty from './Empty';
+//import Empty from './Empty';
 
 const Buynow = () => {
 
@@ -38,7 +38,7 @@ const Buynow = () => {
     return (
         <>
         {
-            cartdata.length ? <div className='buynow_section'>
+             <div className='buynow_section'>
                 <div className='buynow_container'>
                     <div className="left_buy">
                         <h1>Shopping Cart</h1>
@@ -74,7 +74,7 @@ const Buynow = () => {
                     </div>
                     <Right iteam={cartdata} />
                 </div>
-            </div> : <Empty />
+            </div> 
         }
 
         </>
