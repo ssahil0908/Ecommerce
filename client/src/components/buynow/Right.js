@@ -18,7 +18,7 @@ const Right = ({iteam}) => {
         setPrice(price)
     }
     const proceesby = ()=>{
-        toast.success("User Registered Successfully!",{
+        toast.success("Order Confirmed!",{
             position: "top-center",
         }) 
        
