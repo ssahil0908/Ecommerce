@@ -1,4 +1,5 @@
 import {React,useState,useEffect} from 'react';
+import swal from 'sweetalert';
 const Right = ({iteam}) => {
 
     const [price, setPrice] = useState(0);
