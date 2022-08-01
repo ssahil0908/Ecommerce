@@ -21,7 +21,7 @@ const Right = ({iteam}) => {
         toast.success("User Registered Successfully!",{
             position: "top-center",
         }) 
-         history.push("/");
+       
     }
 
     return <div className='right_buy'>
