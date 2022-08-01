@@ -14,28 +14,22 @@ const Footer = () => {
                     <h3>Get to Know US</h3>
                     <p>Abous Us</p>
                     <p>Careers</p>
-                    <p>Press Releases</p>
                     <p>Amazon Cares</p>
                 </div>
                 <div className="footr_details_one">
                     <h3>Connect with Us</h3>
                     <p>Facebook</p>
                     <p>Twitter</p>
-                    <p>INstagram</p>
+                    <p>Instagram</p>
 
                 </div>
                 <div className="footr_details_one forres">
                     <h3>Make Money with Us</h3>
                     <p>Facebook</p>
                     <p>Twitter</p>
-                    <p>INstagram</p>
+                    <p>Instagram</p>
                 </div>
-                <div className="footr_details_one forres">
-                    <h3>Make Money with Us</h3>
-                    <p>Facebook</p>
-                    <p>Twitter</p>
-                    <p>INstagram</p>
-                </div>
+                
             </div>
             <div className="lastdetails">
                 <img src="./amazon_PNG25.png" alt="" />

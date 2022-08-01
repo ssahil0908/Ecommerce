@@ -53,7 +53,7 @@ const SIgnUp = () => {
             })
         }else{
             // alert("data succesfully adde");
-            toast.success("data succesfully added",{
+            toast.success("User Registered Successfully!",{
                 position: "top-center",
             })
             setUdata({...udata,fname:"",email:"",mobile:"",password:"",cpassword:""});

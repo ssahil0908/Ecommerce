@@ -27,7 +27,7 @@ const Rightheader = ({ logclose,logoutuser}) => {
 
                     <Divider style={{ width: "100%", marginLeft: "-20px" }} />
 
-                    <NavLink to="/">today's Deal</NavLink>
+                    <NavLink to="/">Today's Deal</NavLink>
                     {
                         account ? <NavLink to="/buynow">Your orders</NavLink> : <NavLink to="/login">Your orders</NavLink>
                     }
@@ -37,7 +37,7 @@ const Rightheader = ({ logclose,logoutuser}) => {
 
                     <div className="flag">
                         <NavLink to="/">Settings</NavLink>
-                        <img src="./india.png" style={{width:35,marginLeft:10}} alt="" />
+                       
                     </div>
 
 

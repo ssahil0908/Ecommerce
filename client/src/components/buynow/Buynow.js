@@ -4,6 +4,7 @@ import Option from './Option';
 import Right from './Right';
 import Subtotal from './Subtotal';
 import "./buynow.css";
+import Empty from './Empty';
 
 const Buynow = () => {
 
@@ -73,7 +74,7 @@ const Buynow = () => {
                     </div>
                     <Right iteam={cartdata} />
                 </div>
-            </div> : ""
+            </div> : <Empty />
         }
 
         </>

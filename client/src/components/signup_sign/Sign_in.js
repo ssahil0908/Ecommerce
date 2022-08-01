@@ -53,7 +53,7 @@ const Sign_in = () => {
         }else{
             console.log("data valid");
             setAccount(data)
-            toast.success("user valid",{
+            toast.success("User Login Successfully!",{
                 position: "top-center",
             })
             setData({...logdata,email:"",password:""});
