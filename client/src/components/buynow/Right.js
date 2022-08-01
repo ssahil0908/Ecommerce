@@ -1,5 +1,7 @@
 import {React,useState,useEffect} from 'react';
-import swal from 'sweetalert';
+import {  toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const Right = ({iteam}) => {
 
     const [price, setPrice] = useState(0);
@@ -16,8 +18,10 @@ const Right = ({iteam}) => {
         setPrice(price)
     }
     const proceesby = ()=>{
-        swal("Good job!", "Your Order is Confirmed!", "success");
-        history.push("/");
+        toast.success("User Registered Successfully!",{
+            position: "top-center",
+        }) 
+         history.push("/");
     }
 
     return <div className='right_buy'>
