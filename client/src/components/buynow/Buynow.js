@@ -38,7 +38,7 @@ const Buynow = () => {
     return (
         <>
         {
-             <div className='buynow_section'>
+           cartdata.length ?  <div className='buynow_section'>
                 <div className='buynow_container'>
                     <div className="left_buy">
                         <h1>Shopping Cart</h1>
@@ -74,7 +74,7 @@ const Buynow = () => {
                     </div>
                     <Right iteam={cartdata} />
                 </div>
-            </div> 
+            </div> : ""
         }
 
         </>
