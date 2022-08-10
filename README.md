@@ -57,7 +57,7 @@ Start the server
 
 ## Screenshots
 
-![App Screenshot](https://drive.google.com/file/d/1SaIxeVFNNanu3j2GFw41ZR1M2KUTQTrB/view?usp=sharing)
+![image](https://drive.google.com/file/d/1SaIxeVFNNanu3j2GFw41ZR1M2KUTQTrB/view?usp=sharing)
 
 
 ## Tech Stack
